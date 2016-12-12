@@ -1,0 +1,593 @@
+[02-Oct-2016 20:17:22 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebug() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 9
+[02-Oct-2016 20:17:22 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebugDestination() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 10
+[02-Oct-2016 20:17:22 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:17:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:17:22 UTC] PHP Strict Standards:  Non-static method YahooSession::hasSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 35
+[02-Oct-2016 20:17:22 UTC] PHP Strict Standards:  Non-static method YahooSession::initSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 398
+[02-Oct-2016 20:17:22 UTC] PHP Strict Standards:  Non-static method YahooSession::checkSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 555
+[02-Oct-2016 20:17:22 UTC] PHP Strict Standards:  Non-static method YahooUtil::current_url() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 39
+[02-Oct-2016 20:17:22 UTC] PHP Strict Standards:  Non-static method YahooSession::createAuthorizationUrl() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 43
+[02-Oct-2016 20:17:22 UTC] PHP Strict Standards:  Non-static method YahooAuthorization::getRequestToken() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 478
+[02-Oct-2016 20:17:22 UTC] PHP Strict Standards:  Non-static method YahooLogger::debug() should not be called statically, assuming $this from incompatible context in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1866
+[02-Oct-2016 20:17:22 UTC] DEBUG - HTTP request details
+[02-Oct-2016 20:17:22 UTC] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=https%3A%2F%2Ftopdog.site%2Ftera%2Fsample%2F%3Fin_popup&oauth_consumer_key=XXXXXXXXXXXXXXXXXX&oauth_nonce=69bb6030452f7bacf942826e1e5f09eb&oauth_signature=8yqyoIMi7MRcU5h3Nnu9TEceX2I%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1475439442&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Sun, 02 Oct 2016 20:17:21 GMT
+            [P3P] => policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=consumer_key_unknown
+            [Cache-Control] => private
+            [Content-Length] => 34
+            [Content-Type] => application/x-www-form-urlencoded
+            [Age] => 0
+            [Connection] => close
+            [Strict-Transport-Security] => max-age=15552000
+            [Server] => ATS
+        )
+
+    [responseBody] => oauth_problem=consumer_key_unknown
+)
+
+[02-Oct-2016 20:17:22 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1322
+[02-Oct-2016 20:17:22 UTC] ERROR - Failed to create request token: consumer_key_unknown
+[02-Oct-2016 20:17:22 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 489
+[02-Oct-2016 20:17:22 UTC] ERROR - Failed to create request token
+[02-Oct-2016 20:23:24 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebug() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 9
+[02-Oct-2016 20:23:24 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebugDestination() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 10
+[02-Oct-2016 20:23:24 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:23:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:23:24 UTC] PHP Strict Standards:  Non-static method YahooSession::hasSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 35
+[02-Oct-2016 20:23:24 UTC] PHP Strict Standards:  Non-static method YahooSession::initSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 398
+[02-Oct-2016 20:23:24 UTC] PHP Strict Standards:  Non-static method YahooSession::checkSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 555
+[02-Oct-2016 20:23:24 UTC] PHP Strict Standards:  Non-static method YahooUtil::current_url() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 39
+[02-Oct-2016 20:23:24 UTC] PHP Strict Standards:  Non-static method YahooSession::createAuthorizationUrl() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 43
+[02-Oct-2016 20:23:24 UTC] PHP Strict Standards:  Non-static method YahooAuthorization::getRequestToken() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 478
+[02-Oct-2016 20:23:24 UTC] PHP Strict Standards:  Non-static method YahooLogger::debug() should not be called statically, assuming $this from incompatible context in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1866
+[02-Oct-2016 20:23:24 UTC] DEBUG - HTTP request details
+[02-Oct-2016 20:23:24 UTC] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=https%3A%2F%2Ftopdog.site%2Ftera%2Fsample%2F%3Fin_popup&oauth_consumer_key=dj0yJmk9Y05lN1VianJqNjh4JmQ9WVdrOWRWVmFhRVUyTldjbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--&oauth_nonce=12c94098d0266612df08df4928fbed03&oauth_signature=Yl2qR45LOWRdiGu%2Fe2%2B9ouIW2aw%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1475439804&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Sun, 02 Oct 2016 20:23:23 GMT
+            [P3P] => policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Cache-Control] => private
+            [Vary] => Accept-Encoding
+            [Content-Encoding] => gzip
+            [Content-Length] => 363
+            [Content-Type] => text/html; charset=UTF-8
+            [Age] => 0
+            [Connection] => close
+            [Strict-Transport-Security] => max-age=15552000
+            [Server] => ATS
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+      <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+      <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+      <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+      <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+      </div>
+      </body>
+      </html>
+<!-- oauth04.member.ch1.yahoo.com Sun Oct  2 13:23:23 PDT 2016 -->
+
+)
+
+[02-Oct-2016 20:23:24 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1322
+[02-Oct-2016 20:23:24 UTC] ERROR - Failed to create request token: unknown problem
+[02-Oct-2016 20:23:24 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 489
+[02-Oct-2016 20:23:24 UTC] ERROR - Failed to create request token
+[02-Oct-2016 20:23:37 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebug() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 9
+[02-Oct-2016 20:23:37 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebugDestination() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 10
+[02-Oct-2016 20:23:37 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:23:37 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:23:37 UTC] PHP Strict Standards:  Non-static method YahooSession::hasSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 35
+[02-Oct-2016 20:23:37 UTC] PHP Strict Standards:  Non-static method YahooSession::initSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 398
+[02-Oct-2016 20:23:37 UTC] PHP Strict Standards:  Non-static method YahooSession::checkSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 555
+[02-Oct-2016 20:23:37 UTC] PHP Strict Standards:  Non-static method YahooUtil::current_url() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 39
+[02-Oct-2016 20:23:37 UTC] PHP Strict Standards:  Non-static method YahooSession::createAuthorizationUrl() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 43
+[02-Oct-2016 20:23:37 UTC] PHP Strict Standards:  Non-static method YahooAuthorization::getRequestToken() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 478
+[02-Oct-2016 20:23:38 UTC] PHP Strict Standards:  Non-static method YahooLogger::debug() should not be called statically, assuming $this from incompatible context in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1866
+[02-Oct-2016 20:23:38 UTC] DEBUG - HTTP request details
+[02-Oct-2016 20:23:38 UTC] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=https%3A%2F%2Ftopdog.site%2Ftera%2Fsample%2F%3Fin_popup&oauth_consumer_key=dj0yJmk9Y05lN1VianJqNjh4JmQ9WVdrOWRWVmFhRVUyTldjbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--&oauth_nonce=9e9ee0a9bdf0af1d6d4369f008c49e69&oauth_signature=fZ1nBtr9LcyIefCQPAXKmZJtWJ4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1475439817&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Sun, 02 Oct 2016 20:23:37 GMT
+            [P3P] => policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Cache-Control] => private
+            [Vary] => Accept-Encoding
+            [Content-Encoding] => gzip
+            [Content-Length] => 363
+            [Content-Type] => text/html; charset=UTF-8
+            [Age] => 1
+            [Connection] => close
+            [Strict-Transport-Security] => max-age=15552000
+            [Server] => ATS
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+      <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+      <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+      <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+      <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+      </div>
+      </body>
+      </html>
+<!-- oauth01.member.ch1.yahoo.com Sun Oct  2 13:23:37 PDT 2016 -->
+
+)
+
+[02-Oct-2016 20:23:38 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1322
+[02-Oct-2016 20:23:38 UTC] ERROR - Failed to create request token: unknown problem
+[02-Oct-2016 20:23:38 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 489
+[02-Oct-2016 20:23:38 UTC] ERROR - Failed to create request token
+[02-Oct-2016 20:23:39 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebug() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 9
+[02-Oct-2016 20:23:39 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebugDestination() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 10
+[02-Oct-2016 20:23:39 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:23:39 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:23:39 UTC] PHP Strict Standards:  Non-static method YahooSession::hasSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 35
+[02-Oct-2016 20:23:39 UTC] PHP Strict Standards:  Non-static method YahooSession::initSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 398
+[02-Oct-2016 20:23:39 UTC] PHP Strict Standards:  Non-static method YahooSession::checkSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 555
+[02-Oct-2016 20:23:39 UTC] PHP Strict Standards:  Non-static method YahooUtil::current_url() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 39
+[02-Oct-2016 20:23:39 UTC] PHP Strict Standards:  Non-static method YahooSession::createAuthorizationUrl() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 43
+[02-Oct-2016 20:23:39 UTC] PHP Strict Standards:  Non-static method YahooAuthorization::getRequestToken() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 478
+[02-Oct-2016 20:23:40 UTC] PHP Strict Standards:  Non-static method YahooLogger::debug() should not be called statically, assuming $this from incompatible context in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1866
+[02-Oct-2016 20:23:40 UTC] DEBUG - HTTP request details
+[02-Oct-2016 20:23:40 UTC] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=https%3A%2F%2Ftopdog.site%2Ftera%2Fsample%2F%3Fin_popup&oauth_consumer_key=dj0yJmk9Y05lN1VianJqNjh4JmQ9WVdrOWRWVmFhRVUyTldjbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--&oauth_nonce=4fe40ae6d03956575c56a6a6d3f33dc6&oauth_signature=KmJf83de%2FiB81SFKU48asEoRaVg%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1475439819&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Sun, 02 Oct 2016 20:23:39 GMT
+            [P3P] => policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Cache-Control] => private
+            [Vary] => Accept-Encoding
+            [Content-Encoding] => gzip
+            [Content-Length] => 363
+            [Content-Type] => text/html; charset=UTF-8
+            [Age] => 1
+            [Connection] => close
+            [Strict-Transport-Security] => max-age=15552000
+            [Server] => ATS
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+      <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+      <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+      <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+      <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+      </div>
+      </body>
+      </html>
+<!-- oauth02.member.ch1.yahoo.com Sun Oct  2 13:23:39 PDT 2016 -->
+
+)
+
+[02-Oct-2016 20:23:40 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1322
+[02-Oct-2016 20:23:40 UTC] ERROR - Failed to create request token: unknown problem
+[02-Oct-2016 20:23:40 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 489
+[02-Oct-2016 20:23:40 UTC] ERROR - Failed to create request token
+[02-Oct-2016 20:23:43 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebug() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 9
+[02-Oct-2016 20:23:43 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebugDestination() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 10
+[02-Oct-2016 20:23:43 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:23:43 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:23:43 UTC] PHP Strict Standards:  Non-static method YahooSession::hasSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 35
+[02-Oct-2016 20:23:43 UTC] PHP Strict Standards:  Non-static method YahooSession::initSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 398
+[02-Oct-2016 20:23:43 UTC] PHP Strict Standards:  Non-static method YahooSession::checkSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 555
+[02-Oct-2016 20:23:43 UTC] PHP Strict Standards:  Non-static method YahooUtil::current_url() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 39
+[02-Oct-2016 20:23:43 UTC] PHP Strict Standards:  Non-static method YahooSession::createAuthorizationUrl() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 43
+[02-Oct-2016 20:23:43 UTC] PHP Strict Standards:  Non-static method YahooAuthorization::getRequestToken() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 478
+[02-Oct-2016 20:23:44 UTC] PHP Strict Standards:  Non-static method YahooLogger::debug() should not be called statically, assuming $this from incompatible context in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1866
+[02-Oct-2016 20:23:44 UTC] DEBUG - HTTP request details
+[02-Oct-2016 20:23:44 UTC] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=https%3A%2F%2Ftopdog.site%2Ftera%2Fsample%2F%3Fin_popup&oauth_consumer_key=dj0yJmk9Y05lN1VianJqNjh4JmQ9WVdrOWRWVmFhRVUyTldjbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--&oauth_nonce=ec4eb3d845155f7dd5885d31c26849d1&oauth_signature=S4%2Bx0Nmbwj1nuzCUo3xZyHdBqiM%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1475439823&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Sun, 02 Oct 2016 20:23:43 GMT
+            [P3P] => policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Cache-Control] => private
+            [Vary] => Accept-Encoding
+            [Content-Encoding] => gzip
+            [Content-Length] => 364
+            [Content-Type] => text/html; charset=UTF-8
+            [Age] => 0
+            [Connection] => close
+            [Strict-Transport-Security] => max-age=15552000
+            [Server] => ATS
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+      <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+      <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+      <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+      <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+      </div>
+      </body>
+      </html>
+<!-- oauth04.member.ch1.yahoo.com Sun Oct  2 13:23:43 PDT 2016 -->
+
+)
+
+[02-Oct-2016 20:23:44 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1322
+[02-Oct-2016 20:23:44 UTC] ERROR - Failed to create request token: unknown problem
+[02-Oct-2016 20:23:44 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 489
+[02-Oct-2016 20:23:44 UTC] ERROR - Failed to create request token
+[02-Oct-2016 20:23:56 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebug() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 9
+[02-Oct-2016 20:23:56 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebugDestination() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 10
+[02-Oct-2016 20:23:56 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:23:56 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:23:56 UTC] PHP Strict Standards:  Non-static method YahooSession::hasSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 35
+[02-Oct-2016 20:23:56 UTC] PHP Strict Standards:  Non-static method YahooSession::initSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 398
+[02-Oct-2016 20:23:56 UTC] PHP Strict Standards:  Non-static method YahooSession::checkSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 555
+[02-Oct-2016 20:23:56 UTC] PHP Strict Standards:  Non-static method YahooUtil::current_url() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 39
+[02-Oct-2016 20:23:56 UTC] PHP Strict Standards:  Non-static method YahooSession::createAuthorizationUrl() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 43
+[02-Oct-2016 20:23:56 UTC] PHP Strict Standards:  Non-static method YahooAuthorization::getRequestToken() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 478
+[02-Oct-2016 20:23:56 UTC] PHP Strict Standards:  Non-static method YahooLogger::debug() should not be called statically, assuming $this from incompatible context in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1866
+[02-Oct-2016 20:23:56 UTC] DEBUG - HTTP request details
+[02-Oct-2016 20:23:56 UTC] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=https%3A%2F%2Ftopdog.site%2Ftera%2Fsample%2F%3Fin_popup&oauth_consumer_key=dj0yJmk9Y05lN1VianJqNjh4JmQ9WVdrOWRWVmFhRVUyTldjbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--&oauth_nonce=57ded355e693636c512c5566ee15e777&oauth_signature=VIq%2BoXW9H3x0pQm8vhpAlJFLhPs%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1475439836&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Sun, 02 Oct 2016 20:23:55 GMT
+            [P3P] => policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Cache-Control] => private
+            [Vary] => Accept-Encoding
+            [Content-Encoding] => gzip
+            [Content-Length] => 363
+            [Content-Type] => text/html; charset=UTF-8
+            [Age] => 0
+            [Connection] => close
+            [Strict-Transport-Security] => max-age=15552000
+            [Server] => ATS
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+      <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+      <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+      <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+      <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+      </div>
+      </body>
+      </html>
+<!-- oauth02.member.ch1.yahoo.com Sun Oct  2 13:23:55 PDT 2016 -->
+
+)
+
+[02-Oct-2016 20:23:56 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1322
+[02-Oct-2016 20:23:56 UTC] ERROR - Failed to create request token: unknown problem
+[02-Oct-2016 20:23:56 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 489
+[02-Oct-2016 20:23:56 UTC] ERROR - Failed to create request token
+[02-Oct-2016 20:24:49 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebug() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 9
+[02-Oct-2016 20:24:49 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebugDestination() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 10
+[02-Oct-2016 20:24:49 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:24:49 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:24:49 UTC] PHP Strict Standards:  Non-static method YahooSession::hasSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 35
+[02-Oct-2016 20:24:49 UTC] PHP Strict Standards:  Non-static method YahooSession::initSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 398
+[02-Oct-2016 20:24:49 UTC] PHP Strict Standards:  Non-static method YahooSession::checkSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 555
+[02-Oct-2016 20:24:49 UTC] PHP Strict Standards:  Non-static method YahooUtil::current_url() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 39
+[02-Oct-2016 20:24:49 UTC] PHP Strict Standards:  Non-static method YahooSession::createAuthorizationUrl() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 43
+[02-Oct-2016 20:24:49 UTC] PHP Strict Standards:  Non-static method YahooAuthorization::getRequestToken() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 478
+[02-Oct-2016 20:24:49 UTC] PHP Strict Standards:  Non-static method YahooLogger::debug() should not be called statically, assuming $this from incompatible context in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1866
+[02-Oct-2016 20:24:49 UTC] DEBUG - HTTP request details
+[02-Oct-2016 20:24:49 UTC] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=https%3A%2F%2Ftopdog.site%2Ftera%2Fsample%2F%3Fin_popup&oauth_consumer_key=dj0yJmk9Y05lN1VianJqNjh4JmQ9WVdrOWRWVmFhRVUyTldjbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--&oauth_nonce=c9877528668d43418a3091a587e2ad0e&oauth_signature=BXYeIfR7cmW11sbw5AmzaFbZzC0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1475439889&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Sun, 02 Oct 2016 20:24:48 GMT
+            [P3P] => policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Cache-Control] => private
+            [Vary] => Accept-Encoding
+            [Content-Encoding] => gzip
+            [Content-Length] => 364
+            [Content-Type] => text/html; charset=UTF-8
+            [Age] => 0
+            [Connection] => close
+            [Strict-Transport-Security] => max-age=15552000
+            [Server] => ATS
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+      <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+      <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+      <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+      <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+      </div>
+      </body>
+      </html>
+<!-- oauth01.member.ch1.yahoo.com Sun Oct  2 13:24:48 PDT 2016 -->
+
+)
+
+[02-Oct-2016 20:24:49 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1322
+[02-Oct-2016 20:24:49 UTC] ERROR - Failed to create request token: unknown problem
+[02-Oct-2016 20:24:49 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 489
+[02-Oct-2016 20:24:49 UTC] ERROR - Failed to create request token
+[02-Oct-2016 20:24:53 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebug() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 9
+[02-Oct-2016 20:24:53 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebugDestination() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 10
+[02-Oct-2016 20:24:53 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:24:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:24:53 UTC] PHP Strict Standards:  Non-static method YahooSession::hasSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 35
+[02-Oct-2016 20:24:53 UTC] PHP Strict Standards:  Non-static method YahooSession::initSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 398
+[02-Oct-2016 20:24:53 UTC] PHP Strict Standards:  Non-static method YahooSession::checkSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 555
+[02-Oct-2016 20:24:53 UTC] PHP Strict Standards:  Non-static method YahooUtil::current_url() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 39
+[02-Oct-2016 20:24:53 UTC] PHP Strict Standards:  Non-static method YahooSession::createAuthorizationUrl() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 43
+[02-Oct-2016 20:24:53 UTC] PHP Strict Standards:  Non-static method YahooAuthorization::getRequestToken() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 478
+[02-Oct-2016 20:24:54 UTC] PHP Strict Standards:  Non-static method YahooLogger::debug() should not be called statically, assuming $this from incompatible context in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1866
+[02-Oct-2016 20:24:54 UTC] DEBUG - HTTP request details
+[02-Oct-2016 20:24:54 UTC] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=https%3A%2F%2Ftopdog.site%2Ftera%2Fsample%2F%3Fin_popup&oauth_consumer_key=dj0yJmk9Y05lN1VianJqNjh4JmQ9WVdrOWRWVmFhRVUyTldjbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--&oauth_nonce=999bb1d70f358e62dcdc20b283a9fccc&oauth_signature=GzZZw7x7912LS70HeWeN0EmF%2BpM%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1475439893&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Sun, 02 Oct 2016 20:24:53 GMT
+            [P3P] => policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Cache-Control] => private
+            [Vary] => Accept-Encoding
+            [Content-Encoding] => gzip
+            [Content-Length] => 363
+            [Content-Type] => text/html; charset=UTF-8
+            [Age] => 1
+            [Connection] => close
+            [Strict-Transport-Security] => max-age=15552000
+            [Server] => ATS
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+      <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+      <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+      <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+      <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+      </div>
+      </body>
+      </html>
+<!-- oauth04.member.ch1.yahoo.com Sun Oct  2 13:24:53 PDT 2016 -->
+
+)
+
+[02-Oct-2016 20:24:54 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1322
+[02-Oct-2016 20:24:54 UTC] ERROR - Failed to create request token: unknown problem
+[02-Oct-2016 20:24:54 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 489
+[02-Oct-2016 20:24:54 UTC] ERROR - Failed to create request token
+[02-Oct-2016 20:24:56 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebug() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 9
+[02-Oct-2016 20:24:56 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebugDestination() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 10
+[02-Oct-2016 20:24:56 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:24:56 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[02-Oct-2016 20:24:56 UTC] PHP Strict Standards:  Non-static method YahooSession::hasSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 35
+[02-Oct-2016 20:24:56 UTC] PHP Strict Standards:  Non-static method YahooSession::initSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 398
+[02-Oct-2016 20:24:56 UTC] PHP Strict Standards:  Non-static method YahooSession::checkSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 555
+[02-Oct-2016 20:24:56 UTC] PHP Strict Standards:  Non-static method YahooUtil::current_url() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 39
+[02-Oct-2016 20:24:56 UTC] PHP Strict Standards:  Non-static method YahooSession::createAuthorizationUrl() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 43
+[02-Oct-2016 20:24:56 UTC] PHP Strict Standards:  Non-static method YahooAuthorization::getRequestToken() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 478
+[02-Oct-2016 20:24:57 UTC] PHP Strict Standards:  Non-static method YahooLogger::debug() should not be called statically, assuming $this from incompatible context in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1866
+[02-Oct-2016 20:24:57 UTC] DEBUG - HTTP request details
+[02-Oct-2016 20:24:57 UTC] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=https%3A%2F%2Ftopdog.site%2Ftera%2Fsample%2F%3Fin_popup&oauth_consumer_key=dj0yJmk9Y05lN1VianJqNjh4JmQ9WVdrOWRWVmFhRVUyTldjbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--&oauth_nonce=46b1c00888f9048d037af4a72e49895b&oauth_signature=j18Fcw3eL3G71xn0Xj3siT%2FaYRI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1475439896&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Sun, 02 Oct 2016 20:24:56 GMT
+            [P3P] => policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Cache-Control] => private
+            [Vary] => Accept-Encoding
+            [Content-Encoding] => gzip
+            [Content-Length] => 364
+            [Content-Type] => text/html; charset=UTF-8
+            [Age] => 0
+            [Connection] => close
+            [Strict-Transport-Security] => max-age=15552000
+            [Server] => ATS
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+      <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+      <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+      <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+      <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+      </div>
+      </body>
+      </html>
+<!-- oauth03.member.ch1.yahoo.com Sun Oct  2 13:24:56 PDT 2016 -->
+
+)
+
+[02-Oct-2016 20:24:57 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1322
+[02-Oct-2016 20:24:57 UTC] ERROR - Failed to create request token: unknown problem
+[02-Oct-2016 20:24:57 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 489
+[02-Oct-2016 20:24:57 UTC] ERROR - Failed to create request token
+[03-Oct-2016 06:52:30 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebug() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 9
+[03-Oct-2016 06:52:30 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebugDestination() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 10
+[03-Oct-2016 06:52:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[03-Oct-2016 06:52:30 UTC] PHP Strict Standards:  Non-static method YahooSession::hasSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 35
+[03-Oct-2016 06:52:30 UTC] PHP Strict Standards:  Non-static method YahooSession::initSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 398
+[03-Oct-2016 06:52:30 UTC] PHP Strict Standards:  Non-static method YahooSession::checkSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 555
+[03-Oct-2016 06:52:30 UTC] PHP Strict Standards:  Non-static method YahooUtil::current_url() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 39
+[03-Oct-2016 06:52:30 UTC] PHP Strict Standards:  Non-static method YahooSession::createAuthorizationUrl() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 43
+[03-Oct-2016 06:52:30 UTC] PHP Strict Standards:  Non-static method YahooAuthorization::getRequestToken() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 478
+[03-Oct-2016 06:52:31 UTC] PHP Strict Standards:  Non-static method YahooLogger::debug() should not be called statically, assuming $this from incompatible context in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1866
+[03-Oct-2016 06:52:31 UTC] DEBUG - HTTP request details
+[03-Oct-2016 06:52:31 UTC] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=https%3A%2F%2Ftopdog.site%2Ftera%2Fsample%2F%3Fin_popup&oauth_consumer_key=dj0yJmk9Y05lN1VianJqNjh4JmQ9WVdrOWRWVmFhRVUyTldjbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--&oauth_nonce=74c886a54632375282702e235b1d2c22&oauth_signature=DEwVk0TTV3wwPdHZWgy5e1pc7sA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1475477550&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Mon, 03 Oct 2016 06:52:31 GMT
+            [P3P] => policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Cache-Control] => private
+            [Vary] => Accept-Encoding
+            [Content-Encoding] => gzip
+            [Content-Length] => 363
+            [Content-Type] => text/html; charset=UTF-8
+            [Age] => 0
+            [Connection] => close
+            [Strict-Transport-Security] => max-age=15552000
+            [Server] => ATS
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+      <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+      <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+      <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+      <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+      </div>
+      </body>
+      </html>
+<!-- oauth02.member.ch1.yahoo.com Sun Oct  2 23:52:31 PDT 2016 -->
+
+)
+
+[03-Oct-2016 06:52:31 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1322
+[03-Oct-2016 06:52:31 UTC] ERROR - Failed to create request token: unknown problem
+[03-Oct-2016 06:52:31 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 489
+[03-Oct-2016 06:52:31 UTC] ERROR - Failed to create request token
+[03-Oct-2016 06:53:16 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebug() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 9
+[03-Oct-2016 06:53:16 UTC] PHP Strict Standards:  Non-static method YahooLogger::setDebugDestination() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 10
+[03-Oct-2016 06:53:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/topdog/whmcs/src/whmcs/tera/sample/index.php:9) in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 15
+[03-Oct-2016 06:53:16 UTC] PHP Strict Standards:  Non-static method YahooSession::hasSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 35
+[03-Oct-2016 06:53:16 UTC] PHP Strict Standards:  Non-static method YahooSession::initSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 398
+[03-Oct-2016 06:53:16 UTC] PHP Strict Standards:  Non-static method YahooSession::checkSession() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 555
+[03-Oct-2016 06:53:16 UTC] PHP Strict Standards:  Non-static method YahooUtil::current_url() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 39
+[03-Oct-2016 06:53:16 UTC] PHP Strict Standards:  Non-static method YahooSession::createAuthorizationUrl() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/sample/index.php on line 43
+[03-Oct-2016 06:53:16 UTC] PHP Strict Standards:  Non-static method YahooAuthorization::getRequestToken() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 478
+[03-Oct-2016 06:53:16 UTC] PHP Strict Standards:  Non-static method YahooLogger::debug() should not be called statically, assuming $this from incompatible context in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1866
+[03-Oct-2016 06:53:16 UTC] DEBUG - HTTP request details
+[03-Oct-2016 06:53:16 UTC] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=https%3A%2F%2Ftopdog.site%2Ftera%2Fsample%2F%3Fin_popup&oauth_consumer_key=dj0yJmk9Y05lN1VianJqNjh4JmQ9WVdrOWRWVmFhRVUyTldjbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMQ--&oauth_nonce=c21ba5926ce9481c0b90add0a67c9c37&oauth_signature=jie8LOI%2BYupzITwthI2NDkUPzaA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1475477596&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Mon, 03 Oct 2016 06:53:17 GMT
+            [P3P] => policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Cache-Control] => private
+            [Vary] => Accept-Encoding
+            [Content-Encoding] => gzip
+            [Content-Length] => 363
+            [Content-Type] => text/html; charset=UTF-8
+            [Age] => 1
+            [Connection] => close
+            [Strict-Transport-Security] => max-age=15552000
+            [Server] => ATS
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+      <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+      <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+      <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+      <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+      </div>
+      </body>
+      </html>
+<!-- oauth01.member.ch1.yahoo.com Sun Oct  2 23:53:17 PDT 2016 -->
+
+)
+
+[03-Oct-2016 06:53:16 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 1322
+[03-Oct-2016 06:53:16 UTC] ERROR - Failed to create request token: unknown problem
+[03-Oct-2016 06:53:16 UTC] PHP Strict Standards:  Non-static method YahooLogger::error() should not be called statically in /home/topdog/whmcs/src/whmcs/tera/lib/Yahoo.inc on line 489
+[03-Oct-2016 06:53:16 UTC] ERROR - Failed to create request token
