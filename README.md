@@ -30,12 +30,12 @@ Clicking through to add a new vehicle, the user must enter the following informa
   - First & Last name
   - Contact number
   - Email address
- Vehicle Information
-  o Manufacturer (e.g. Volkswagon)
-  o Type (e.g. Polo)
-  o Year
-  o Colour
-  o Mileage
+- Vehicle Information
+  - Manufacturer (e.g. Volkswagon)
+  - Type (e.g. Polo)
+  - Year
+  - Colour
+  - Mileage
   
   VIEWING A VEHICLE
   
@@ -52,7 +52,7 @@ Vehicles will be soft-deleted.
  
 RESTFUL API 
 A simple RESTFul API to perform simple CRUD operations on a vehicle.
-   allows the client to specify the response type as XML or JSON (default).
-   secured API from public access
+  - allows the client to specify the response type as XML or JSON (default).
+  - secured API from public access
   
   
