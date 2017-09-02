@@ -19,17 +19,17 @@ Once the user is logged in, they will be shown a welcome message in the format �
 The user will be shown a list of previously registered vehicles, and the ability to add, view, edit or delete any of
 them.
 The following information should be shown in the vehicle list:
-   Owner name
-   Vehicle manufacturer & type
-   Date registered
+ -Owner name
+ -Vehicle manufacturer & type
+ -Date registered
   
 ADDING A VEHICLE
 
 Clicking through to add a new vehicle, the user must enter the following information:
- Owner Information
-  o First & Last name
-  o Contact number
-  o Email address
+- Owner Information
+  - First & Last name
+  - Contact number
+  - Email address
  Vehicle Information
   o Manufacturer (e.g. Volkswagon)
   o Type (e.g. Polo)
